@@ -1,6 +1,6 @@
 {
   "name": "uupaa.mpeg4bytestream.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "MPEG4-10 AVC - Annex B - Byte stream format",
   "url": "https://github.com/uupaa/MPEG4ByteStream.js",
   "keywords": ["uupaa", "WebModule", "Unstable"],

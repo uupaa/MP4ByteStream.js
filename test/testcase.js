@@ -26,8 +26,7 @@ if (IN_BROWSER || IN_NW || IN_EL || IN_WORKER || IN_NODE) {
 // --- test cases ------------------------------------------
 function testMPEG4ByteStream_convertByteStreamToNALUnit(test, pass, miss) {
     var byteStream = new Uint8Array([0x00, 0x00, 0x01, 0x09, 0xF0]);
-
-    var NALUnitObjectArray = MPEG4ByteStream.convertByteStreamToNALUnitObjectArray(byteStream);
+    var nalunit    = MPEG4ByteStream.convertByteStreamToNALUnitObjectArray( byteStream );
 
     test.done(pass());
 }

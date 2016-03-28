@@ -17,9 +17,9 @@ This module made of [WebModule](https://github.com/uupaa/WebModule).
 <script src="<module-dir>/lib/MPEG4ByteStream.js"></script>
 <script>
 
-var mpeg2ts             = MPEG2TS.parse( new Uint8Array(buffer) );
-var videoByteStream     = MPEG2TS.convertTSPacketToByteStream(mpeg2ts["VIDEO_TS_PACKET"]);
-var nalUnitObjectArray  = MP4ByteStream.convertTSPacketToByteStream(mpeg2ts["VIDEO_TS_PACKET"]);
+var mpeg2ts    = MPEG2TS.parse( new Uint8Array(buffer) );
+var byteStream = MPEG2TS.convertTSPacketToByteStream( mpeg2ts["VIDEO_TS_PACKET"] );
+var nalunit    = MPEG4ByteStream.convertTSPacketToByteStream( byteStream );
 
 </script>
 ```
