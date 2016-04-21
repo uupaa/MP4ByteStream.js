@@ -1,6 +1,6 @@
 {
   "name": "uupaa.mpeg4bytestream.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MPEG4-10 AVC - Annex B - Byte stream format",
   "url": "https://github.com/uupaa/MPEG4ByteStream.js",
   "keywords": ["uupaa", "WebModule", "Unstable"],
@@ -74,6 +74,6 @@
   "lib": "./lib/",
   "main": "./index.js",
   "author": "uupaa",
-  "license": "MIT",
+  "license": "Apache License Version 2.0",
   "contributors": []
 }

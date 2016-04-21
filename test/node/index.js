@@ -17,6 +17,7 @@ require("../../node_modules/uupaa.nalunit.js/lib/NALUnitSPS.js");
 require("../../node_modules/uupaa.nalunit.js/lib/NALUnitPPS.js");
 require("../../node_modules/uupaa.nalunit.js/lib/NALUnitSEI.js");
 require("../../node_modules/uupaa.nalunit.js/lib/NALUnitIDR.js");
+require("../../node_modules/uupaa.nalunit.js/lib/NALUnitNON_IDR.js");
 require("../../node_modules/uupaa.nalunit.js/lib/NALUnit.js");
 require("../wmtools.js");
 require("../../lib/MPEG4ByteStream.js");
